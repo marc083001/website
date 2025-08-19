@@ -32,25 +32,43 @@
 
       <h2>ASIA</h2>
       <section>
-        <a href="JAPAN_ASIA.php"><img src="images/japan.jpg" alt="JAPAN" height="200" width="300"></a>
-        <a href="PHILLIPINES_ASIA.php"><img src="images/philippines.jpg" alt="PHILIPPINES" height="200" width="300"></a>
-        <a href="THAILAND_ASIA.php"><img src="images/thailand.jpg" alt="THAILAND" height="200" width="300"></a>
+        <a href="JAPAN_ASIA.php">
+          <img src="https://flagcdn.com/w320/jp.png" alt="JAPAN" height="200" width="300">
+        </a>
+        <a href="PHILLIPINES_ASIA.php">
+          <img src="https://flagcdn.com/w320/ph.png" alt="PHILIPPINES" height="200" width="300">
+        </a>
+        <a href="THAILAND_ASIA.php">
+          <img src="https://flagcdn.com/w320/th.png" alt="THAILAND" height="200" width="300">
+        </a>
       </section>
 
       <br><br>
       <h2>AMERICA</h2>
       <section>
-        <a href="AMAZON_AMERICA.php"><img src="images/amazon.jpg" alt="AMAZON" height="200" width="300"></a>
-        <a href="BRAZIL_AMERICA.php"><img src="images/brazil.jpg" alt="BRAZIL" height="200" width="300"></a>
-        <a href="GREENLAND_AMERICA.php"><img src="images/greenland.jpg" alt="GREENLAND" height="200" width="300"></a>
+        <a href="AMAZON_AMERICA.php">
+          <a href="AMAZON_AMERICA.php"><img src="images/amazon.jpg" alt="AMAZON" height="200" width="300"></a>
+        </a>
+        <a href="BRAZIL_AMERICA.php">
+          <img src="https://flagcdn.com/w320/br.png" alt="BRAZIL" height="200" width="300">
+        </a>
+        <a href="GREENLAND_AMERICA.php">
+          <img src="https://flagcdn.com/w320/gl.png" alt="GREENLAND" height="200" width="300">
+        </a>
       </section>
 
       <br><br>
       <h2>EUROPE</h2>
       <section>
-        <a href="SPAIN_EUROPE.php"><img src="images/spain.jpg" alt="SPAIN" height="200" width="300"></a>
-        <a href="ITALY_EUROPE.php"><img src="images/italy.jpg" alt="ITALY" height="200" width="300"></a>
-        <a href="NETHERLAND_EUROPE.php"><img src="images/netherland.jpg" alt="NETHERLAND" height="200" width="300"></a>
+        <a href="SPAIN_EUROPE.php">
+          <img src="https://flagcdn.com/w320/es.png" alt="SPAIN" height="200" width="300">
+        </a>
+        <a href="ITALY_EUROPE.php">
+          <img src="https://flagcdn.com/w320/it.png" alt="ITALY" height="200" width="300">
+        </a>
+        <a href="NETHERLAND_EUROPE.php">
+          <img src="https://flagcdn.com/w320/nl.png" alt="NETHERLAND" height="200" width="300">
+        </a>
       </section>
 
       <br><br>
