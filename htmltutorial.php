@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML Tutorial - CodeBloom 🎀</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="navbar">
+      <div class="logo">HTML CodeBloom 🎀</div>
+    </div>
+
+    <div class="nav-actions">
+      <button id="modeToggle">🌙</button>
+      <button id="menuToggle">☰</button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>HTML TUTORIAL</h1>   
+  </section>
+
+  <!-- Lessons Section -->
+  <section class="info">
+    <div class="container">
+      <h2>Why Learn HTML?</h2>
+
+      <section id="Lesson1">
+        <h3>Lesson 1</h3>
+        <p>
+          The Internet and the World Wide Web <br>
+          The Internet is a worldwide collection of networks that links millions of businesses, 
+          government agencies, educational institutions, and individuals. 
+          Each of the networks provides resources accessible globally. 
+          The World Wide Web, or simply the Web, and e-mail are two of the most widely used Internet services.
+        </p>
+      </section>
+
+      <section id="Lesson2">
+        <h3>Lesson 2</h3>
+        <p>
+          Introduction to HTML <br>
+          HTML stands for Hyper Text Markup Language. 
+          It is used to design web pages using markup language. 
+          Hypertext defines the link between web pages while Markup language structures the content. 
+          HTML was created by Tim Berners-Lee in 1991. The first standard version was HTML 2.0, published in 1999.
+        </p>
+      </section>
+
+      <section id="Lesson3">
+        <h3>Lesson 3</h3>
+        <p>
+          HTML - Text & Text Formatting <br>
+          Text is the backbone of any web page. It not only provides content for users 
+          but also gives search engines valuable keywords. 
+          Longer text blocks should be wrapped in a paragraph tag (`<p>`).
+        </p>
+      </section>
+
+      <!-- Quick Navigation -->
+      <div class="lesson-links">
+        <a href="#Lesson1">Go To Lesson 1</a> |
+        <a href="#Lesson2">Go To Lesson 2</a> |
+        <a href="#Lesson3">Go To Lesson 3</a>
+      </div>
+
+      <!-- External/Internal Links -->
+      <div class="links">
+        <a href="list.php">List Tutorial</a><br>
+        <a href="https://www.evsu.edu.ph/" target="_blank">Visit EVSU</a><br>
+        <a href="index.php">⬅ Back to Home</a>
+      </div>
+
+      <!-- Try It Yourself -->
+      <div class="info-button">
+        <button onclick="window.open('https://www.programiz.com/php/online-compiler/','_blank')">
+          TRY IT YOURSELF
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Video Gallery -->
+  <section class="video-gallery">
+    <a href="https://youtu.be/x5mYQJTqOWk" target="_blank" class="video-thumb">
+      <img src="https://img.youtube.com/vi/x5mYQJTqOWk/mqdefault.jpg" alt="HTML Basics Video">
+    </a>
+    <a href="https://youtu.be/lafECAi4F5k" target="_blank" class="video-thumb">
+      <img src="https://img.youtube.com/vi/lafECAi4F5k/mqdefault.jpg" alt="HTML Tags Video">
+    </a>
+    <a href="https://youtu.be/VmiMcxLVVto" target="_blank" class="video-thumb">
+      <img src="https://img.youtube.com/vi/VmiMcxLVVto/mqdefault.jpg" alt="HTML Forms Video">
+    </a>
+    <a href="https://youtu.be/t4LTm5x1Gbw" target="_blank" class="video-thumb">
+      <img src="https://img.youtube.com/vi/t4LTm5x1Gbw/mqdefault.jpg" alt="HTML Tables Video">
+    </a>
+    <a href="https://youtu.be/gyhd_4Bu0sc" target="_blank" class="video-thumb">
+      <img src="https://img.youtube.com/vi/gyhd_4Bu0sc/mqdefault.jpg" alt="HTML Advanced Video">
+    </a>
+  </section>
+
+  <!-- JS -->
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,277 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  background: #a10d6d;
+  color: #fff;
+  padding: 1rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links a {
+  color: white;
+  margin-left: 1rem;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 2rem;
+  background: hsl(325, 53%, 89%);
+}
+
+.hero h1 {
+  margin-bottom: 1rem;
+}
+
+.buttons button {
+  margin: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  background: #d551a7;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.subjects {
+  background: #f5f5f5;
+  overflow-x: auto;
+}
+
+.subjects ul {
+  display: flex;
+  list-style: none;
+  padding: 1rem;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.subjects li {
+  cursor: pointer;
+}
+
+.subjects .active {
+  font-weight: bold;
+  color: #1976d2;
+}
+
+.topics {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 2rem;
+  background: #fafafa;
+}
+
+.topic-column {
+  margin: 1rem;
+}
+
+.featured {
+  padding: 3rem;
+  background: #fff;
+  text-align: center;
+}
+
+.tutorials {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.tutorial-card {
+  background: #bbeafb;
+  padding: 1rem;
+  border-radius: 10px;
+  width: 400px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  height: 1200px;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s, background 0.3s;
+}
+
+.tutorial-card:hover {
+  transform: scale(1.05);
+  background: #f990d2;
+}
+
+.more-info {
+  display: none;
+  margin-top: 10px;
+  color: #444;
+  font-size: 0.9em;
+}
+.tutorial-card.expanded .more-info {
+  display: block;
+}
+
+
+@media (max-width: 768px) {
+  .topics, .tutorials {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+}
+
+/* Light & Dark Mode */
+body.light {
+  background-color: #fff;
+  color: #000;
+}
+body.dark {
+  background-color: #121212;
+  color: #f5f5f5;
+}
+.dark .tutorial-card {
+  background-color: #1e1e1e;
+}
+
+/* Nav additions */
+.nav-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+#modeToggle, #menuToggle {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: white;
+}
+
+/* Tutorial Card Hover */
+.tutorial-card {
+  transition: transform 0.3s, background 0.3s;
+}
+.tutorial-card:hover {
+  transform: scale(1.05);
+  background: #f990d2;
+}
+
+
+/* Filter section */
+.filters {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1rem;
+}
+.filters select {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+/* Animated Loading */
+.loading {
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.2rem;
+  animation: pulse 1.2s infinite;
+}
+@keyframes pulse {
+  0% { opacity: 0.5; }
+  50% { opacity: 1; }
+  100% { opacity: 0.5; }
+}
+
+/* Responsive Menu */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background: #0d47a1;
+    padding: 1rem;
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+}
+/* For Bookmark button */
+button {
+  background: none;
+  border: 1px solid #1976d2;
+  color: #1976d2;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #1976d2;
+  color: white;
+}
+
+.code-editor {
+  padding: 2rem;
+  background-color: #fafafa;
+  text-align: center;
+}
+
+#codeEditor {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.tutorial-card {
+  display: block;
+  background: #bbeafb;
+  padding: 1rem;
+  border-radius: 10px;
+  width: 400px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  height: 100px;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.3s, background 0.3s;
+}
+
+.tutorial-card:hover {
+  transform: scale(1.05);
+  background: #f990d2;
+}
+.profile-intro {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #ccc;
+}

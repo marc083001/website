@@ -1,0 +1,74 @@
+<?php
+// pwede ka dito maglagay ng PHP logic kung gusto mo in the future
+// e.g. session_start(); o mga variables for user data
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Personal Web</title>
+  <link rel="stylesheet" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <!-- Header & Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">HTML CodeBloom 🎀</div>
+      <div class="nav-actions">
+        <button id="modeToggle" aria-label="Toggle Dark Mode">🌙</button>
+        <button id="menuToggle" aria-label="Toggle Menu">☰</button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Welcome to Ange's Profile – A Space Where Creativity Meets Code.</h1>
+    
+    <div class="profile-intro">
+      <img src="profile.PNG" alt="Angelica Sevilla" class="profile-pic">
+      <h2>Hi, I'm <span class="highlight">Angelica Sevilla</span></h2>
+    </div>
+  </section>
+
+  <!-- Featured Projects -->
+  <section class="featured">
+    <h2>Featured Projects using HTML</h2>
+    <div class="tutorials">
+      <a href="welcometohtml.php" class="tutorial-card">
+        <h4>Welcome to HTML</h4>
+        <p>Build & style your page with beautiful layouts and colors.</p>
+      </a>
+
+      <a href="personaldata.php" class="tutorial-card">
+        <h4>Personal Data</h4>
+        <p>A simple HTML form that collects and displays personal user information.</p>
+      </a>
+
+      <a href="htmltutorial.php" class="tutorial-card">
+        <h4>HTML Tutorial</h4>
+        <p>A basic tutorial webpage teaching users how to write and understand HTML code.</p>
+      </a>
+
+      <a href="registration.php" class="tutorial-card">
+        <h4>Registration</h4>
+        <p>A user registration form built with HTML & PHP to input and store sign-up details.</p>
+      </a>
+
+      <a href="tvscheduling.php" class="tutorial-card">
+        <h4>TV Scheduling</h4>
+        <p>A webpage showcasing a weekly TV program schedule using HTML tables.</p>
+      </a>
+
+      <a href="touristspot.php" class="tutorial-card">
+        <h4>Tourist Spot</h4>
+        <p>A webpage highlighting popular tourist destinations with images and descriptions.</p>
+      </a>
+    </div>
+  </section>
+
+  <!-- Scripts -->
+  <script src="app.js"></script>
+</body>
+</html>
